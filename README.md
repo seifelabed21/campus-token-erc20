@@ -2,6 +2,16 @@
 
 Application pédagogique pour créer et gérer **CAMP**, un token ERC-20 déployé sur le testnet Sepolia. Le projet réunit un contrat Solidity, des scripts Hardhat et une interface web connectée à MetaMask.
 
+## Aperçu
+
+![Tableau de bord Campus Token connecté à Sepolia](assets/campus-token-sepolia.png)
+
+*Tableau de bord CAMP sur Sepolia ; l’adresse du portefeuille est masquée.*
+
+![Extrait du contrat Solidity MyToken](assets/mytoken-contract.png)
+
+*Le contrat `MyToken.sol` définit les règles du token et attribue l’offre initiale au déployeur.*
+
 ## Fonctionnalités
 
 - Consulter le nom, le symbole, l’offre totale, le plafond et son solde CAMP.
