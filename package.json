@@ -1,0 +1,28 @@
+{
+  "name": "gestion-token-erc20",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Projet universitaire de gestion d'un token ERC-20 sur Ethereum",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "verify:sepolia": "hardhat run scripts/verify.js --network sepolia",
+    "verify:sourcify:sepolia": "hardhat run scripts/verify-sourcify.js --network sepolia",
+    "frontend": "npm run dev --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "6.1.2",
+    "dotenv": "16.4.5",
+    "hardhat": "2.28.0",
+    "solidity-coverage": "0.8.17",
+    "solc": "0.8.20"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.0.2"
+  }
+}

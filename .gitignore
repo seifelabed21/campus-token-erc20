@@ -1,0 +1,25 @@
+# Dependencies and generated output
+node_modules/
+frontend/node_modules/
+artifacts/
+cache/
+coverage/
+coverage.json
+frontend/dist/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Presentation material and local captures
+captures/
+presentation/
+image.png
+
+# Keep the repository documentation focused on its README
+*.md
+!README.md
+
+# Logs
+npm-debug.log*
